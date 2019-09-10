@@ -1,0 +1,73 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: grey;
+    background-color: #F6F0BD;
+}
+h1 {
+    text-align: center;
+    color: purple;
+    border-style: dashed;
+    border-color: purple;
+    border-width: 2px;
+}
+h2 {
+    color: green;
+}
+hr {
+    border-color: purple;
+}
+nav {
+    font-weight: bold;
+    border: groove;
+    border-color: purple;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1;
+ border: groove;
+ border-color: purple;
+ padding: 10px;
+}
+
+article {
+ flex: 4;
+ padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    display: inline;
+    border-right: groove;
+    border-color: purple;
+}
+nav li a {
+    margin: 0;
+    display: inline-block;
+    color: purple;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: lightgrey;
+}
+#rightmost {
+    border: none;
+}
+#selfie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
